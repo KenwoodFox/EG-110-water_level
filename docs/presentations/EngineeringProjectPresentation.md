@@ -25,8 +25,9 @@ section-titles: false
 
 ## Presentation Overview
 
-Thank you for attending our presentation, in this presentation we will cover
-the research, prototyping, assembly and final notes for our **Water Level Sensor** project!
+Thank you for attending our presentation, in this
+presentation we will cover the research, prototyping,
+assembly and final notes for our **Water Level Sensor** project!
 
 ### Note
 
