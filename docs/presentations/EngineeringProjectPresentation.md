@@ -5,8 +5,8 @@ subtitle:
  - Version &hash
 author:
  - Joe
- - Aiden
  - James
+ - Aiden
  - Alex
 institute:
  - SNHU/CETA, EG-110
@@ -36,7 +36,13 @@ Use the progress bar above to see our presentation progress at any time!
 
 ## Problem Statement
 
- $problemStatement
+Our problem statement is the guide we employed to help us stick to our design goals
+and make a product that will actually help.
+
+### Our Problem Statement
+
+*We must create and implement a solution that is **precise**, **functional**, **easy
+to use**, **Simple to repair** and will **last a long time**.*
 
 
 # Concepts
@@ -256,6 +262,7 @@ See our source CAD, designs, sources all here!
 ![](resources/source_qr.png){ height=30% }
 
 ### Tools used
+
  - FreeCAD
  - Pandoc/LaTeX
  - Git
