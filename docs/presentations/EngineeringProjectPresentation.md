@@ -7,7 +7,7 @@ author:
  - Joe
  - Aiden
  - James
- - Aiden
+ - Alex
 institute:
  - SNHU/CETA, EG-110
 titlegraphic: ../../resources/TeamLogo.png
@@ -216,6 +216,17 @@ Use the progress bar above to see our presentation progress at any time!
 [^4]: Accuracy (Higher is more accurate)
 [^5]: Dependencies (Lower is more dependencies)
 
+
+## Notes on Concept Selection
+
+We went with the Helix because we felt it that overall it would be more
+beneficial for the water level sensor to be more visible and the helical
+gauge allows for this, its also much easier to repair with in situ parts.
+
+If we were to redraw the concept eval matrix with different weights, using
+higher weights for these catagories could be beneficial.
+
+
 # Final Prototype
 
 ## Photos
@@ -236,4 +247,15 @@ And also how unique it is
 
 # Misc/Extra
 
-## How was this slideshow made?
+## How was this all made?
+
+### Source
+
+See our source CAD, designs, sources all here!
+
+![](resources/source_qr.png){ height=30% }
+
+### Tools used
+ - FreeCAD
+ - Pandoc/LaTeX
+ - Git
