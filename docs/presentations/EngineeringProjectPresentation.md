@@ -16,7 +16,7 @@ navigation: frame
 date: "Build Date: &date"
 aspectratio: 1610
 logo: resources/TeamLogo.png
-fontsize: 10pt
+fontsize: 8pt
 section-titles: false
 ---
 
@@ -41,7 +41,7 @@ Use the progress bar above to see our presentation progress at any time!
 
 # Concepts
 
-## Concept 1
+## Concept 1 : Head Pressure Gauge
 
 ::: columns
 
@@ -49,7 +49,7 @@ Use the progress bar above to see our presentation progress at any time!
 
 ### Construction of Concept
 
-const
+![](resources/headpressuregauge.jpg){ height=60% }
 
 ::::
 
@@ -57,18 +57,29 @@ const
 
 ### How concept solves problem
 
-prob
+ - [x] Functional
+ - [x] Serviceable
+ - [x] Simple to Operate
+ - [x] Simple to implement
+ - [x] Cost effective
 
 ### Strengths and weaknesses
 
-s&w
+ - Strengths
+   - Cheap and super simple
+   - Easy to source parts
+   - Easy to install in situ
+ - Weaknesses
+   - Small and unassuming
+   - Requires upfront calibration
+   - Introduces failure points below the waterline
 
 ::::
 
 :::
 
 
-## Concept 2
+## Concept 2 : Hall Effect Sensor
 
 ::: columns
 
@@ -76,7 +87,7 @@ s&w
 
 ### Construction of Concept
 
-const
+![](resources/halleffectsensor.jpg){ height=60% }
 
 ::::
 
@@ -84,18 +95,30 @@ const
 
 ### How concept solves problem
 
-prob
+ - [x] Functional
+ - [ ] Serviceable
+ - [ ] Simple to Operate
+ - [ ] Simple to implement
+ - [ ] Cost effective
 
 ### Strengths and weaknesses
 
-s&w
+ - Strengths
+   - Super accurate and pretty reliable
+   - Safe to put in drinking water
+   - Introduces no failure points below the waterline
+ - Weaknesses
+   - Very expensive
+   - Impossible to source locally
+   - Very difficult to service in situ
+   - Requires electricity
 
 ::::
 
 :::
 
 
-## Concept 3
+## Concept 3 : Helical Float Gauge
 
 ::: columns
 
@@ -103,7 +126,7 @@ s&w
 
 ### Construction of Concept
 
-const
+![](resources/helixfloat.jpg){ height=60% }
 
 ::::
 
@@ -111,11 +134,63 @@ const
 
 ### How concept solves problem
 
-prob
+ - [x] Functional
+ - [x] Serviceable
+ - [x] Simple to Operate
+ - [ ] Simple to implement
+ - [x] Cost effective
 
 ### Strengths and weaknesses
 
-s&w
+ - Strengths
+   - Cheap and easy to service
+   - Parts are simple and accessible
+   - Construction is lenient (in situ resources)
+   - No failure points below the waterline
+   - Very visible
+ - Weaknesses
+   - Not very accurate
+   - Prone to lockup/failure
+   - Introduces contamination vector points
+   - Requires calibration
+
+::::
+
+:::
+
+
+## Concept 4 : Transducer Low-Level Indicator
+
+::: columns
+
+:::: {.column width=50%}
+
+### Construction of Concept
+
+![](resources/sonar.jpg){ height=60% }
+
+::::
+
+:::: {.column width=50%}
+
+### How concept solves problem
+
+ - [x] Functional
+ - [ ] Serviceable
+ - [ ] Simple to Operate
+ - [x] Simple to implement
+ - [ ] Cost effective
+
+### Strengths and weaknesses
+
+ - Strengths
+   - Accurate up to a dead zone
+   - Does not touch or introduce pathogen vectors to the water
+   - Simple and no moving parts
+ - Weaknesses
+   - Requires electricity
+   - Difficult to service in situ
+   - Expensive and requires software interfacing
 
 ::::
 
