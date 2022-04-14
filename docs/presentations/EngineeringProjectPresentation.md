@@ -159,7 +159,7 @@ Use the progress bar above to see our presentation progress at any time!
 :::
 
 
-## Concept 4 : Transducer Low-Level Indicator
+## Concept 4 : Transducer Indicator
 
 ::: columns
 
@@ -200,6 +200,21 @@ Use the progress bar above to see our presentation progress at any time!
 # Concept Selection
 
 ## Evaluation Matrix
+
+| Prototype   | cost | maintain.[^1] | prod.[^2] | effect.[^3] | acc.[^4] | safety | depend.[^5] | Usability | Tot  |
+| ----------- | ---- | ------------- | --------- | ----------- | -------- | ------ | ----------- | --------- | ---- |
+| Head Pres.  | 9    | 10            | 10        | 8           | 4        | 9      | 8           | 7         | 65   |
+| Sight Glass | 5    | 9             | 7         | 9           | 8        | 9      | 8           | 10        | 65   |
+| Helix       | 6    | 9             | 3         | 10          | 6        | 6      | 10          | 9.5       | 59.5 |
+| Transducer  | 4    | 9             | 6.5       | 6           | 9        | 10     | 4           | 5         | 53.5 |
+| Hall Effect | 1    | 9             | 1         | 6           | 10       | 9      | 2           | 1         | 39   |
+| Flow Meter  | 4    | 6             | 6.5       | 6           | 1        | 4      | 4           | 1         | 32.5 |
+
+[^1]: Maintenance (Higher is easier to maintain)
+[^2]: Production (Higher is easier to produce)
+[^3]: Effectiveness (Higher is more effective)
+[^4]: Accuracy (Higher is more accurate)
+[^5]: Dependencies (Lower is more dependencies)
 
 # Final Prototype
 
