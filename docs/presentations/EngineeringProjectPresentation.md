@@ -316,6 +316,17 @@ This whole project, like the previous project were all managed via git! You can 
 ![](resources/gitstuff.png){ height=60% }
 
 
+## Full size prototype
+
+![](resources/full_size_proto.png){ height=60% }
+
+### Full size prototype
+
+We also spent some time to make design a 'full size' prototype.
+
+The full size prototype would need 2 dials, with 6 rotations per full traversal of the tank.
+
+
 ## How was this all made?
 
 ### Source
