@@ -7,7 +7,7 @@ author:
  - Joe
  - James
  - Aiden
- - Alex
+ - Alex[^6]
 institute:
  - SNHU/CETA, EG-110
 titlegraphic: ../../resources/TeamLogo.png
@@ -19,6 +19,8 @@ logo: resources/TeamLogo.png
 fontsize: 8pt
 section-titles: false
 ---
+
+[^6]: Alex was there at at least 2 meetings
 
 
 # Introduction
