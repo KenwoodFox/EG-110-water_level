@@ -1,0 +1,48 @@
+name: Style, Build and Docs
+on:
+  push:
+    branches:
+      - "main"
+    tags:
+      - "*"
+  pull_request:
+
+jobs:
+  make_docs:
+    runs-on: ubuntu-latest
+    name: Doc Builder
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - run: sudo apt install texlive-latex-recommended texlive-latex-extra texlive-pictures pandoc rename latexmk
+
+      - run: cd docs && make
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: AB_Docs
+          path: docs/_build/pdf/*.pdf
+
+  publish_docs:
+    # Only publish on tags
+    if: github.event_name == 'push' && contains(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    name: Create Brightspace Submission
+    needs: [make_docs]
+
+    steps:
+      - uses: actions/download-artifact@v2
+        with:
+          name: AB_Docs
+
+      - name: Upload Docs to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: "*.pdf"
+          tag: ${{ github.ref }}
+          overwrite: true
+          body: "A-B Transport EG-110, Automated with auto uploaded binaries."
+          file_glob: true
