@@ -297,8 +297,24 @@ Like before, we communicated over discord, witch did help a lot since
 we were not often all present together in class. Using a tool 
 like discord or slack can really help asynchronous teams to pull together.
 
+## Interpersonal
+
+As a team A-B talked and interacted more, witch spurred on more
+communication and better group work.
+
 
 # Misc/Extra
+
+## Git
+
+### Git
+
+This whole project, like the previous project were all managed via git! You can check us out here: https://github.com/KenwoodFox/EG-110-water_level
+
+### Github
+
+![](resources/gitstuff.png){ height=60% }
+
 
 ## How was this all made?
 
