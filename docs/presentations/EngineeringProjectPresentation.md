@@ -237,18 +237,65 @@ higher weights for these catagories could be beneficial.
 
 ## Photos
 
+::: columns
+
+:::: {.column width=50%}
+
+![](resources/finalProto.jpg){ height=60% }
+
+### Final Assembled Prototype
+
+The final assembled prototype is a little bit rough around the edges but
+even at a smaller scale seems to work fine!
+
+::::
+
+:::: {.column width=50%}
+
+![](resources/CAD.png){ height=60% }
+
+### Final CAD
+
+The cad matches the final prototype very well, this is a nice success!
+
+::::
+
+:::
+
+
 ## How it works
 
-And also how unique it is
+![](resources/helical_plate.jpg){ height=60% }
+
+### Theory of Operation
+
+At its core, the helical float gauge uses a captive helical plate
+cut into the float to provide a gentle twist as it rises in water level,
+this is analogous to a worm screw but in reverse.
 
 
 # Lessons Learned
 
-## Interpersonal
-
 ## Teamwork
 
+This time around, the team was more of a team and less of a 
+group of students. Work was distributed better, and even
+more communication occurred in and out of class.
+
+### Editors Note
+
+I think we made an improvement over the last workload distribution!
+
+
 ## Communications
+
+![](resources/discord.png){ height=60% }
+
+### Discord
+
+Like before, we communicated over discord, witch did help a lot since
+we were not often all present together in class. Using a tool 
+like discord or slack can really help asynchronous teams to pull together.
 
 
 # Misc/Extra
